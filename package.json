@@ -1,0 +1,43 @@
+{
+  "name": "@mishannn/2gis-api",
+  "version": "0.1.0",
+  "description": "Библиотека для работы с 2GIS API",
+  "keywords": [
+    "2gis",
+    "api"
+  ],
+  "main": "dist/2gis-api.js",
+  "typings": "dist/types/Client.d.ts",
+  "browser": "dist/2gis-api.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishannn/2gis-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mishannn/2gis-api/issues"
+  },
+  "author": "mishannn",
+  "scripts": {
+    "build": "yarn clean && webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/axios": "^0.14.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3"
+  }
+}

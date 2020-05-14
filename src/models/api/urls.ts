@@ -1,0 +1,25 @@
+export const WEB_API_URL = 'https://catalog.api.2gis.ru/2.0/';
+export const WEB_API3_URL = 'https://catalog.api.2gis.ru/3.0/';
+// const WEB_API_KEY: 'rurbbn3446';
+
+export const RUBRICATOR_GET_URL = WEB_API3_URL + 'rubricator/get';
+export const RUBRICATOR_DASHBOARD_URL = WEB_API3_URL + 'rubricator/dashboard';
+export const RUBRICATOR_LIST_URL = WEB_API3_URL + 'rubricator/list';
+export const RUBRICS_TREE_URL = WEB_API_URL + 'catalog/rubric/list';
+export const DETECT_REGION_URL = WEB_API3_URL + 'dashboard/geo/items';
+export const DASHBOARD_ADS_GET_URL = WEB_API3_URL + 'ads/advise/gta/online/dashboard';
+export const SEARCH_FIRM_URL = WEB_API3_URL + 'items';
+export const GET_ITEM_URL = WEB_API3_URL + 'items/byid';
+export const SEARCH_GEO_URL = WEB_API_URL + 'geo/search';
+export const SEARCH_QUERY_MARKERS_URL = WEB_API3_URL + 'markers';
+export const SEARCH_CLUSTERED_MARKERS_URL = WEB_API3_URL + 'markers/clustered';
+export const SEARCH_FIRM_MARKERS_URL = WEB_API_URL + 'catalog/marker/search';
+export const SEARCH_REGION_URL = WEB_API_URL + 'region/search';
+export const SUGGESTS_URL = WEB_API_URL + 'suggest/list';
+export const OBJECTS_SUGGESTS_URL = WEB_API3_URL + 'suggests';
+export const PROFILE_URL = WEB_API3_URL + 'profile/data';
+export const REGIONS_URL = WEB_API_URL + 'region/list';
+export const REGION_INFO = WEB_API_URL + 'region/get';
+export const BRANCH_GET_URL = WEB_API_URL + 'catalog/branch/get';
+export const BRANCH_LIST_URL = WEB_API_URL + 'catalog/branch/list';
+export const GET_ITEM_BY_ENTRACE_URL = WEB_API3_URL + 'items/byentrance';
