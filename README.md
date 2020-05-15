@@ -60,6 +60,8 @@ const DGApi = require('@mishannn/2gis-api');
 
 ### Браузер
 
+[Посмотреть пример](https://mishannn.github.io/2gis-api/)
+
 ```
 <!DOCTYPE html>
 <html>
