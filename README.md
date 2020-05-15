@@ -9,13 +9,13 @@
 ### Yarn
 
 ```
-yarn add axios https://github.com/mishannn/2gis-api
+yarn add axios @mishannn/2gis-api
 ```
 
 ### NPM
 
 ```
-npm i -S axios https://github.com/mishannn/2gis-api
+npm i -S axios @mishannn/2gis-api
 ```
 
 ## Пример использования
