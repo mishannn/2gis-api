@@ -87,7 +87,7 @@ const DGApi = require('@mishannn/2gis-api');
 
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://raw.githubusercontent.com/mishannn/2gis-api/develop/dist/2gis-api.js"></script>
+    <script src="https://unpkg.com/@mishannn/2gis-api@0.1.0/dist/2gis-api.js"></script>
     <script>
       const map = L.map('map').setView([55.753215, 37.622504], 13);
 
