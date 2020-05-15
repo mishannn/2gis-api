@@ -19,7 +19,9 @@
   "bugs": {
     "url": "https://github.com/mishannn/2gis-api/issues"
   },
-  "author": "mishannn",
+  "author": "https://github.com/mishannn",
+  "homepage": "https://github.com/mishannn/2gis-api",
+  "license": "MIT",
   "scripts": {
     "build": "yarn clean && webpack",
     "watch": "webpack --watch",
